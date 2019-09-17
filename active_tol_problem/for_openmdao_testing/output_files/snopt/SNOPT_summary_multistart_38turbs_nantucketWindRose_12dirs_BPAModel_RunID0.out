@@ -1,0 +1,51 @@
+
+ ==============================
+ S N O P T  7.2-12.3 (Aug 2014)
+ ==============================
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+
+ ==============================
+ S N O P T  7.2-12.3 (Aug 2014)
+ ==============================
+ 
+ 
+
+ Nonlinear constraints     741     Linear constraints       0
+ Nonlinear variables        76     Linear variables         0
+ Jacobian  variables        76     Objective variables     76
+ Total constraints         741     Total variables         76
+ 
+
+ 
+ The user has defined   56316   out of   56316   constraint gradients.
+ The user has defined      76   out of      76   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction    nS Penalty
+     0     65               1 (8.4E-17) 4.8E-01 -1.5258769E+05    65           r
+     1      1  1.8E-01      2 (1.1E-10) 4.8E-01 -1.5259165E+05    65         n rl
+     2     67  1.7E-01      3 (2.0E-10) 5.7E-01 -1.5259561E+05    11         s  l
+
+        Minor   QPmult   nInf   SumInf   rgNorm    QPobjective
+          100                                    1.4585772E+06
+          200                           3.0E-01 -1.5380691E+05     4
+          300                           3.8E-13 -1.6248263E+05    10
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction    nS Penalty
+     3    345  1.0E+00      5  1.9E-02  1.1E+00 -1.6840369E+05    23          m
+     4     12  5.7E-02      7  1.8E-02  9.2E-01 -1.6188661E+05    15 3.1E-04
+     5     68  8.6E-05     17  1.8E-02  7.0E-01 -1.6187278E+05     9 3.1E-04
+     6     84  3.9E-02     20  1.7E-02  6.9E-01 -1.6241436E+05    14 3.1E-04
+
+        Minor   QPmult   nInf   SumInf   rgNorm    QPobjective    nS
+          100 -3.5E-01                  2.7E-12 -1.7029262E+05    11
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction    nS Penalty
+     7    124  2.2E-02     23  1.7E-02  6.2E-01 -1.6289887E+05    15 3.1E-04
+     8     93  5.6E-02     26  1.6E-02  6.2E-01 -1.6338398E+05    13 3.1E-04
+     9     55  2.1E-02     29  1.6E-02  7.4E-01 -1.6375319E+05    16 3.1E-04
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction    nS Penalty
+    10     67  3.3E-02     32  1.5E-02  8.0E-01 -1.6466982E+05    15 3.1E-04

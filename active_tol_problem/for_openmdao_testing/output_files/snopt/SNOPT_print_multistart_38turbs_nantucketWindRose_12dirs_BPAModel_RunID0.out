@@ -1,0 +1,226 @@
+
+         ==============================
+         S N O P T  7.2-12.3 (Aug 2014)
+         ==============================
+      Major optimality tolerance  1.00000000E-04
+      Verify level               1
+      Print file 18
+      Summary file 19
+      Derivative level               3
+1
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+
+         ==============================
+         S N O P T  7.2-12.3 (Aug 2014)
+         ==============================
+      Major optimality tolerance  1.00000000E-04
+      Verify level               1
+      Print file 18
+      Summary file 19
+      Derivative level               3
+1
+ 
+ Parameters
+ ==========
+
+ Files
+ -----
+ Solution file..........         0       Old basis file ........         0       Standard input.........         5
+ Insert file............         0       New basis file ........         0       (Printer)..............        18
+ Punch file.............         0       Backup basis file......         0       (Specs file)...........         0
+ Load file..............         0       Dump file..............         0       Standard output........         6
+
+ Frequencies
+ -----------
+ Print frequency........       100       Check frequency........        60       Save new basis map.....       100
+ Summary frequency......       100       Factorization frequency        50       Expand frequency.......     10000
+
+ QP subproblems
+ --------------
+ QPsolver Cholesky......
+ Scale tolerance........     0.900       Minor feasibility tol..  1.00E-06       Iteration limit........     10000
+ Scale option...........         0       Minor optimality  tol..  1.00E-06       Minor print level......         1
+ Crash tolerance........     0.100       Pivot tolerance........  3.25E-11       Partial price..........         1
+ Crash option...........         3       Elastic weight.........  1.00E+04       Prtl price section ( A)        76
+                                         New superbasics........        99       Prtl price section (-I)       741
+
+ The SQP Method
+ --------------
+ Minimize...............                 Cold start.............                 Proximal Point method..         1
+ Nonlinear objectiv vars        76       Major optimality tol...  1.00E-04       Function precision.....  3.00E-13
+ Unbounded step size....  1.00E+20       Superbasics limit......        76       Difference interval....  5.48E-07
+ Unbounded objective....  1.00E+15       Reduced Hessian dim....        76       Central difference int.  6.70E-05
+ Major step limit.......  2.00E+00       Derivative linesearch..                 Derivative level.......         3
+ Major iterations limit.      2223       Linesearch tolerance...   0.90000       Verify level...........         1
+ Minor iterations limit.       500       Penalty parameter......  0.00E+00       Major Print Level......         1
+
+ Hessian Approximation
+ ---------------------
+ Limited-Memory Hessian.                 Hessian updates........        10       Hessian frequency......  99999999
+                                                                                 Hessian flush..........  99999999
+
+ Nonlinear constraints
+ ---------------------
+ Nonlinear constraints..       741       Major feasibility tol..  1.00E-06       Violation limit........  1.00E+06
+ Nonlinear Jacobian vars        76
+
+ Miscellaneous
+ -------------
+ LU factor tolerance....      3.99       LU singularity tol.....  3.25E-11       Timing level...........         3
+ LU update tolerance....      3.99       LU swap tolerance......  1.22E-04       Debug level............         0
+ LU partial  pivoting...                 eps (machine precision)  2.22E-16       System information.....        No
+                                                                                 Sticky parameters......        No
+1
+ 
+
+ 
+
+ Matrix statistics
+ -----------------
+               Total      Normal        Free       Fixed     Bounded
+ Rows            741         741           0           0           0
+ Columns          76           0           0           0          76
+
+ No. of matrix elements                56316     Density     100.000
+ Biggest  constant element        0.0000E+00  (excluding fixed columns,
+ Smallest constant element        0.0000E+00   free rows, and RHS)
+
+ No. of objective coefficients             0
+
+ Nonlinear constraints     741     Linear constraints       0
+ Nonlinear variables        76     Linear variables         0
+ Jacobian  variables        76     Objective variables     76
+ Total constraints         741     Total variables         76
+1
+ 
+
+ 
+ The user has defined   56316   out of   56316   constraint gradients.
+ The user has defined      76   out of      76   objective  gradients.
+
+ Verification of user-supplied problem derivatives.
+
+ XXX  The constraint gradients seem to be incorrect.
+
+ -->  The largest discrepancy was    1.53E-01  in constraint   668
+ 
+
+ The objective  gradients seem to be OK.
+
+ Gradient projected in one direction  -5.63253215249E-02
+ Difference approximation             -4.81842794736E-02
+
+ 
+      j       x(j)        dx(j)           g(j)         Difference approxn
+ 
+      1  1.26582278E+04  6.93E-03    9.08101373E-02    8.59234813E-02  bad?
+      2  1.67443038E+04  9.17E-03   -4.69924491E-01   -4.33693144E-01  bad?
+      3  1.47012658E+04  8.05E-03   -2.97660419E-01   -2.32361534E-01  bad?
+      4  1.06151899E+04  5.81E-03    2.01287148E-01    2.43537274E-01  bad?
+      5  8.57215190E+03  4.70E-03    4.78736378E-01    4.17465613E-01  bad?
+      6  1.06151899E+04  5.81E-03    3.21362686E-02   -4.01502454E-02  bad?
+      7  1.47012658E+04  8.05E-03   -6.82379303E-01   -6.93214728E-01  bad?
+      8  2.08303797E+04  1.14E-02    4.60446680E-02   -1.68871104E-03  bad?
+      9  1.97355190E+04  1.08E-02   -2.27538391E-01   -1.86376652E-01  bad?
+     10  1.67443038E+04  9.17E-03    5.22223002E-01    5.38737829E-01  bad?
+     11  1.26582278E+04  6.93E-03    2.87271894E-01    2.43080631E-01  bad?
+     12  8.57215190E+03  4.70E-03    2.02770562E-01    2.25515845E-01  bad?
+     13  5.58093670E+03  3.06E-03    5.81329920E-01    5.37434369E-01  bad?
+     14  4.48607595E+03  2.46E-03    2.87142879E-01    2.46811842E-01  bad?
+     15  5.58093670E+03  3.06E-03   -8.68290691E-01   -7.51261947E-01  bad?
+     16  8.57215190E+03  4.70E-03    1.19375708E-02   -1.67808408E-02  bad?
+     17  1.26582278E+04  6.93E-03   -8.01005904E-01   -6.96955950E-01  bad?
+     18  1.67443038E+04  9.17E-03   -7.82945672E-01   -7.70459337E-01  bad?
+     19  1.97355190E+04  1.08E-02    1.13491316E-01    1.19714683E-01  bad?
+     20  2.49164557E+04  1.36E-02    2.38337370E-01    2.06894741E-01  bad?
+     21  2.42522711E+04  1.33E-02   -9.88931827E-01   -9.17623963E-01  bad?
+     22  2.23316920E+04  1.22E-02    9.20111492E-01    8.03872407E-01  bad?
+     23  1.93628430E+04  1.06E-02   -2.92884933E-01   -2.48450782E-01  bad?
+     24  1.56674449E+04  8.58E-03   -2.46079114E-01   -2.20531757E-01  bad?
+     25  1.16459514E+04  6.38E-03   -3.75456013E-01   -3.10607591E-01  bad?
+     26  7.73415381E+03  4.24E-03   -6.66666162E-02   -8.92805481E-02  bad?
+     27  4.35595603E+03  2.39E-03   -6.97221419E-02   -7.67118734E-02  bad?
+     28  1.87743822E+03  1.03E-03   -4.13921554E-01   -3.44113534E-01  bad?
+     29  5.67186250E+02  3.11E-04    8.95657336E-01    8.69014523E-01  bad?
+     30  5.67186250E+02  3.11E-04   -7.03307129E-01   -6.34469279E-01  bad?
+     31  1.87743822E+03  1.03E-03   -8.28676617E-02   -7.40306792E-02  bad?
+     32  4.35595603E+03  2.39E-03    9.90221727E-01    8.92177024E-01  bad?
+     33  7.73415381E+03  4.24E-03    1.78422455E-01    1.52097670E-01  bad?
+     34  1.16459514E+04  6.38E-03    1.00447491E+00    8.79329593E-01  bad?
+     35  1.56674449E+04  8.58E-03    2.34870012E-01    2.06280947E-01  bad?
+     36  1.93628430E+04  1.06E-02    5.87496821E-01    5.27146762E-01  bad?
+     37  2.23316920E+04  1.22E-02   -8.90290765E-01   -8.02910545E-01  bad?
+     38  2.42522711E+04  1.33E-02    3.55098759E-01    3.46670696E-01  bad?
+     39  1.26582278E+04  6.93E-03    4.05564281E-02    3.84102196E-02  bad?
+     40  1.26582278E+04  6.93E-03   -2.09751780E-01   -2.45458392E-01  bad?
+     41  1.61968734E+04  8.87E-03   -2.32484859E-01   -2.33995792E-01  bad?
+     42  1.61968734E+04  8.87E-03   -2.35108740E-01   -1.95986078E-01  bad?
+     43  1.26582278E+04  6.93E-03    3.95513487E-01    4.36950233E-01  bad?
+     44  9.11958227E+03  5.00E-03    6.66794069E-01    6.52175039E-01  bad?
+     45  9.11958227E+03  5.00E-03    4.50775848E-01    3.92584354E-01  bad?
+     46  1.26582278E+04  6.93E-03    1.79852044E-01    1.15886852E-01  bad?
+     47  1.67443038E+04  9.17E-03    8.27424957E-01    7.48972235E-01  bad?
+     48  1.97355190E+04  1.08E-02    3.39635891E-01    2.57318119E-01  bad?
+     49  2.08303797E+04  1.14E-02    2.36908635E-02   -5.49732818E-03  bad?
+     50  1.97355190E+04  1.08E-02    1.38706879E-01    1.74477569E-01  bad?
+     51  1.67443038E+04  9.17E-03   -1.98198390E-01   -1.67478571E-01  bad?
+     52  1.26582278E+04  6.93E-03   -8.52338758E-01   -7.43545812E-01  bad?
+     53  8.57215190E+03  4.70E-03   -5.27489006E-01   -4.39169290E-01  bad?
+     54  5.58093670E+03  3.06E-03   -1.68594123E-01   -9.11244743E-02  bad?
+     55  4.48607595E+03  2.46E-03   -4.18149766E-01   -4.10015924E-01  bad?
+     56  5.58093670E+03  3.06E-03    4.89509905E-01    4.06624164E-01  bad?
+     57  8.57215190E+03  4.70E-03    2.09422083E-01    1.92532164E-01  bad?
+     58  1.26582278E+04  6.93E-03   -3.34019927E-01   -2.95640173E-01  bad?
+     59  1.66384679E+04  9.11E-03   -6.92138672E-01   -6.67787689E-01  bad?
+     60  2.01873872E+04  1.11E-02   -1.83699595E-01   -2.01185026E-01  bad?
+     61  2.29204053E+04  1.26E-02   -2.69724173E-01   -2.00839351E-01  bad?
+     62  2.45413572E+04  1.34E-02   -1.13898211E+00   -1.00304157E+00  bad?
+     63  2.48745876E+04  1.36E-02    2.16131101E-01    1.07447063E-01  bad?
+     64  2.38839859E+04  1.31E-02   -7.62485228E-01   -6.72216325E-01  bad?
+     65  2.16768992E+04  1.19E-02   -2.29078443E-01   -1.62249638E-01  bad?
+     66  1.84924994E+04  1.01E-02    2.09831779E-01    1.31663325E-01  bad?
+     67  1.46758658E+04  8.04E-03    1.39098356E-01    1.14457083E-01  bad?
+     68  1.06405899E+04  5.83E-03    5.70609388E-01    5.33651922E-01  bad?
+     69  6.82395626E+03  3.74E-03    3.14519634E-01    2.23667987E-01  bad?
+     70  3.63955652E+03  1.99E-03    1.13218879E+00    1.01288598E+00  bad?
+     71  1.43246975E+03  7.85E-04   -5.04486511E-01   -3.84612321E-01  bad?
+     72  4.41868063E+02  2.43E-04    3.54424716E-01    2.76893603E-01  bad?
+     73  7.75098512E+02  4.25E-04    6.14531410E-01    5.32708414E-01  bad?
+     74  2.39605041E+03  1.31E-03   -3.70870051E-01   -2.37286249E-01  bad?
+     75  5.12906847E+03  2.81E-03    4.15834234E-01    4.12106558E-01  bad?
+     76  8.67798777E+03  4.75E-03   -4.01451739E-01   -4.04193709E-01  bad?
+
+ XXX  There seem to be    76  incorrect objective gradients in cols     1  thru    76
+
+ -->  The largest relative error was    1.08E-01   in column    74
+ 
+1
+ 
+ 
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS  condHz Penalty
+     65     0     65              1 (8.4E-17) 4.8E-01 -1.5258769E+05    1132           65 1.0E+02         _  r
+     66     1      1 1.8E-01      2 (1.1E-10) 4.8E-01 -1.5259165E+05    1140           65 1.0E+02         _n rl
+    133     2     67 1.7E-01      3 (2.0E-10) 5.7E-01 -1.5259561E+05    2566           11 2.5E+02         _s  l
+
+    Itn       QPmult  QPstep   nInf   SumInf   rgNorm    QPobjective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS  condHz
+    233                                                1.4585772E+06                                  2579
+    333              9.5E-02                  3.0E-01 -1.5380691E+05           607         8.0E+02    2574         4 6.5E+00
+    433              1.0E+00                  3.8E-13 -1.6248263E+05                                  2965        10 1.1E+05
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS  condHz Penalty
+    478     3    345 1.0E+00      5  1.9E-02  1.1E+00 -1.6840369E+05    3128    10     23 3.1E+05         _ m
+    490     4     12 5.7E-02      7  1.8E-02  9.2E-01 -1.6188661E+05    2221    23     15 1.2E+04 3.1E-04 _
+    558     5     68 8.6E-05     17  1.8E-02  7.0E-01 -1.6187278E+05    2904            9 1.8E+04 3.1E-04 _
+    642     6     84 3.9E-02     20  1.7E-02  6.9E-01 -1.6241436E+05    2701           14 6.0E+03 3.1E-04 _
+
+    Itn       QPmult  QPstep   nInf   SumInf   rgNorm    QPobjective   +SBS   -SBS    -BS    Pivot     L+U ncp    nS  condHz
+    742     -3.5E-01 1.0E+00                  2.7E-12 -1.7029262E+05    121                           2943        11 1.1E+04
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS  condHz Penalty
+    766     7    124 2.2E-02     23  1.7E-02  6.2E-01 -1.6289887E+05    2994    14     15 3.8E+05 3.1E-04 _
+    859     8     93 5.6E-02     26  1.6E-02  6.2E-01 -1.6338398E+05    2716           13 1.4E+04 3.1E-04 _
+    914     9     55 2.1E-02     29  1.6E-02  7.4E-01 -1.6375319E+05    2730           16 3.8E+04 3.1E-04 _
+    981    10     67 3.3E-02     32  1.5E-02  8.0E-01 -1.6466982E+05    2721    15     15 3.1E+05 3.1E-04 _
